@@ -18,9 +18,8 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_paths = ['lib']
 
-  s.add_dependency 'activerecord', '>= 4.2'
-  s.add_dependency 'activesupport', '>= 4.2'
-  s.add_dependency 'arel', '>= 6'
+  s.add_dependency 'activerecord', '>= 5.2'
+  s.add_dependency 'activesupport', '>= 5.2'
 
   s.add_development_dependency 'codeclimate-test-reporter'
   s.add_development_dependency 'pry'
